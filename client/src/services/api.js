@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://taskboard-pro-cybc.onrender.com/api',
+  baseURL: 'https://taskboard-pro-cybc.onrender.com',
 })
 
 api.interceptors.request.use((config) => {
