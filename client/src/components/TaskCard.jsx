@@ -1,4 +1,4 @@
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd'
+import {Draggable} from '@hello-pangea/dnd'
 import api from '../services/api'
 
 export default function TaskCard({ task, index, onChange }) {

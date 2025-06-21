@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import api from '../services/api'
 import TaskCard from '../components/TaskCard'
 import TaskForm from '../components/TaskForm'
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd'
+import { DragDropContext, Droppable} from '@hello-pangea/dnd'
 
 export default function Dashboard() {
   const [tasks, setTasks] = useState([])
